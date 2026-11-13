@@ -3,5 +3,5 @@ package main // Package declaration (The main package in a Go module contains th
 import "fmt" // Usually pronounced "fumpt"
 
 func main() {
-	fmt.Println("Hello, world!")
+	fmt.Printf("Hello, %s!\n", "world")
 }
