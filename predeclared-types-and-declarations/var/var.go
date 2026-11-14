@@ -14,5 +14,4 @@ func main() {
 		Outside of a function, use declaration lists on the rare occasions
 		when you're declaring multiple package-lever variables.
 	*/
-
 }
