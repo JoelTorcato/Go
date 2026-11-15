@@ -28,4 +28,18 @@ func main() {
 	fmt.Println("x:", x) // [a b i j y]
 	fmt.Println("y:", y) // [a b i j y]
 	fmt.Println("z:", z) // [i j y]
+
+	a := make([]string, 0, 5)         // length - 0, cap - 5
+	a = append(a, "a", "b", "c", "d") // [a b c d]
+	b := a[:2:2]                      // origin[inicio:fim:limite (cap)]
+	c := a[2:4:4]                     // a [2::4] - inválido
+
+	// comprimento: fim - início
+	// capacidade: limite - início
+
+	fmt.Println(a, cap(a)) // [a b c d] 5
+	fmt.Println(b, cap(b)) // [a b] 2
+	fmt.Println(c, cap(c)) // [c d] 2
+
+	// append cria outro array quando a capacidade não chega
 }
