@@ -21,6 +21,11 @@ func main() {
 	i = append(i, h...)
 
 	/*
+		destino = append(slice de partida (recebe uma cópida das informações de i - localização dos dados, comprimento e capacidade)
+		, elementos a acrescentar...)
+	*/
+
+	/*
 		multidimensional slices
 
 		var c [][]int
