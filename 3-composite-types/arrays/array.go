@@ -23,8 +23,8 @@ func main() {
 	}
 
 	x[0][0] = 10
-	fmt.Println(x[0])         // [10, 2, 3]
-	fmt.Println(len(x), "\n") // 2 (array composto por outros arrays)
+	fmt.Println(x[0])   // [10, 2, 3]
+	fmt.Println(len(x)) // 2 (array composto por outros arrays)
 
 	fmt.Printf("%d\n", a)    // [0 0 0]
 	fmt.Printf("%d\n", b[1]) // 20
