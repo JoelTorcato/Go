@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"slices"
+	"slices" // A sequence of values.
 )
 
 func main() {
