@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	a := []string{"a", "b", "c", "d"}
 
+	// destino = origin[inínio (começa no 0):fim(exluído, um a mais de onde quero parar)]
 	b := a[:2]
 	c := a[1:]
 	d := a[1:3]
