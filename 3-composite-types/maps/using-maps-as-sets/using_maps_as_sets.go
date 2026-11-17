@@ -9,8 +9,9 @@ func main() {
 	*/
 
 	intSet := map[int]bool{} // Create a map where the keys are of int type and the values are of bool type
+	// We cannot have duplicate keys in a map.
 
-	vals := []int{5, 10, 2, 8, 7, 3, 100} // We cannot have duplicate keys in a map.
+	vals := []int{5, 10, 2, 8, 7, 3, 100} // vals é uma variável que contém um slice de inteiros.
 	for _, v := range vals {
 		intSet[v] = true
 	}
