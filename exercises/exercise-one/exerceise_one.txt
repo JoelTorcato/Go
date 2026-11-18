@@ -1,0 +1,14 @@
+Exercício 1 — Lista de material personalizada
+
+Uma papelaria tem uma lista base de material escolar, pela seguinte ordem:
+
+Caderno, Caneta, Borracha
+
+Maria quer uma versão personalizada dessa lista. Precisa de substituir Caderno por Bloco de notas e acrescentar Régua no final.
+
+A papelaria precisa de conservar a lista base para outros clientes. A personalização de Maria deve ser independente dessa lista.
+
+O teu programa deve apresentar:
+- A lista base e a quantidade de materiais.
+- A lista de Maria e a quantidade de materiais.
+A lista de Maria deve partir dos dados da lista base, evitando escrever novamente todos os materiais.
