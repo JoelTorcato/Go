@@ -1,0 +1,17 @@
+Exercício 2 — Stock de uma papelaria
+
+A papelaria começa o dia com este stock:
+Produto	Quantidade
+Caderno	10
+Caneta	20
+Borracha	0
+
+
+Durante o dia, recebe 5 cadernos, vende 3 canetas e começa a comercializar Régua, com 4 unidades.
+
+O teu programa deve representar essas alterações e apresentar:
+- O stock atualizado.
+- A quantidade de produtos diferentes registados.
+- A quantidade de borrachas e uma confirmação de que o produto está registado.
+- A quantidade associada a Mochila e uma confirmação de que esse produto está registado ou ausente.
+As confirmações podem aparecer como true ou false. A papelaria precisa de distinguir um produto registado com stock zero de um produto ausente do catálogo.
