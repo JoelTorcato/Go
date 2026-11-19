@@ -1,0 +1,10 @@
+2. Cartão de participante
+
+Uma formação recebeu a inscrição de Álvaro Silva, com 20 anos e o identificador 104. 
+Inicialmente, a inscrição está por confirmar. Depois, a organização confirma-a.
+
+O programa deve guardar os dados do participante e apresentar um cartão com:
+- O nome completo.
+- A inicial do primeiro nome, apresentada como carácter.
+- A idade e o identificador.
+- O estado final da confirmação, como valor booleano.
