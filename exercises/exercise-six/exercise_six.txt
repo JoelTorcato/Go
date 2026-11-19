@@ -1,0 +1,18 @@
+4. Agenda de contactos
+
+Uma agenda começa com estes contactos:
+Nome	Telefone
+Ana	"912345678"
+Bruno	"923456789"
+Carla	"934567890"
+
+
+Bruno muda o telefone para "965432100". 
+Carla pede para ser removida da agenda. 
+Entretanto, surge um novo contacto, Diogo, com o telefone "945678901".
+
+O programa deve apresentar:
+- A agenda atualizada e a quantidade de contactos.
+- O telefone de Ana e uma confirmação de que está registada.
+- O resultado da consulta por Carla e uma confirmação de que está registada ou ausente.
+As confirmações podem ser valores booleanos.
