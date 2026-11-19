@@ -1,0 +1,12 @@
+5. Simulação de melhoria de notas
+
+Um aluno tem as notas 12, 15 e 10, pela ordem das três avaliações.
+
+Quer simular uma melhoria da terceira nota para 16, 
+conservando um registo independente das notas originais.
+
+O programa deve apresentar:
+- As notas originais e as da simulação.
+- A média original e a média simulada, incluindo a parte decimal.
+- Um valor booleano que indique se as duas listas de notas têm conteúdo igual.
+Alterar a simulação deve preservar os dados originais.
