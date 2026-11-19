@@ -1,0 +1,9 @@
+3. Fila de atendimento
+
+Uma fila começa com Ana, Bruno e Carla, por esta ordem.
+
+Ana é atendida e sai. Entretanto, Diogo chega e fica no final da fila.
+
+O programa deve apresentar a fila inicial e a final, 
+quantas pessoas continuam à espera e quem será atendido a seguir. 
+A ordem de chegada deve ser respeitada.
