@@ -1,0 +1,11 @@
+1. Orçamento de uma compra
+
+Tens um orçamento de 2 000 cêntimos e queres comprar:
+Produto	Preço por unidade, em cêntimos	Quantidade
+Caderno	250	3
+Caneta	120	2
+Pasta	400	1
+
+
+O programa deve apresentar o custo de cada produto, 
+o total da compra e o dinheiro restante. Apresenta os valores em cêntimos.

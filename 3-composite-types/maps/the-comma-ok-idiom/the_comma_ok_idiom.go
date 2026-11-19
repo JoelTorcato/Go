@@ -6,7 +6,6 @@ func main() {
 	/*
 		The comma ok idiom is used in Go when you want to differentiate
 		between reading a value and getting back the zero value.
-
 	*/
 	m := map[string]int{
 		"hello": 5,
