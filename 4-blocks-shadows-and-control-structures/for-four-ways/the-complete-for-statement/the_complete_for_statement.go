@@ -26,7 +26,7 @@ func main() {
 	*/
 
 	for b := 0; b < 10; {
-		fmt.Println(a)
+		fmt.Println(a) //
 
 		if b%2 == 0 {
 			b++
