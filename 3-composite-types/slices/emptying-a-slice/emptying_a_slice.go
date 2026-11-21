@@ -9,7 +9,7 @@ func main() {
 	clear(s)
 	fmt.Println(s, len(s), cap(s)) // [ ] 3 3
 
-	// Remember, the zero value for a tring is an empty string ""!
+	// Remember, the zero value for a string is an empty string ""!
 
 	i := []int{1, 2, 3}
 	fmt.Println(i, len(i), cap(i)) // [1 2 3] 3 3
