@@ -7,7 +7,7 @@ func main() {
 
 outer:
 	for _, sample := range samples {
-		for i, r := range sample {
+		for i, r := range sample { // != the comma ok idiom
 			fmt.Println(i, r, string(r))
 			if r == 'l' {
 				fmt.Printf("\n")
