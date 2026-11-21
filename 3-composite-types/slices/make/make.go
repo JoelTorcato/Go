@@ -18,6 +18,6 @@ func main() {
 	/*
 		NEver specify a capacity that's less than the length! It is a compile time
 		error to do so with a constant or numeric literal. If you use a variable
-		to specify a capacity that's smallar than the length, your program will panic at runtime.
+		to specify a capacity that's smaller than the length, your program will panic at runtime.
 	*/
 }

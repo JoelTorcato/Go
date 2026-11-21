@@ -32,7 +32,7 @@ func main() {
 
 	for a < 100 {
 		if a%5 == 0 {
-			goto done
+			goto done // serve para saltar diretamente para um ponto identificado por um rótulo (label) na mesma função
 		}
 		a = a*2 + 1
 	}
