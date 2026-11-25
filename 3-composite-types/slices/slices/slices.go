@@ -16,6 +16,7 @@ func main() {
 	i := []int{}
 
 	d = append(d, 1) // assign result to the variable that's passed in
+	d = append(d, 2)
 	b = append(b, 16, 17, 18, 19, 20)
 
 	i = append(i, h...)
@@ -34,6 +35,7 @@ func main() {
 		fmt.Println(c[2])
 	*/
 
+	fmt.Println(d)
 	fmt.Println(a)
 	fmt.Println(b)                  // [1 0 0 0 0 4 6 0 0 0 100 15 16 17 18 19 20] - slice literal
 	fmt.Println(d == nil)           // true
