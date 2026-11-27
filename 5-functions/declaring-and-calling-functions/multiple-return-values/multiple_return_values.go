@@ -29,4 +29,12 @@ func main() {
 	result, remainder, err = divAndRemainder(100, 10)
 
 	fmt.Println(result, remainder) // 10 0
+
+	/*
+		Use _ whenever you don't need to read a value that's returned by a function
+
+		func divAndRemainder(num, denom int) (int, _, error) {
+		...
+		}
+	*/
 }
